@@ -28,7 +28,7 @@ const employees = [
 ];
 
 // Insert new employee at second Position
-employees.splice(1,0,{eno:100,name:"Madhurima",marks:[100,99,98],});
+employees.splice(1,0,{eno:100,name:"Madhurima",marks:[100,99,98]});
 console.log(employees);
 
 // remove an emp with name kiran
@@ -38,6 +38,7 @@ console.log(employees);
 // Change the last mark of sneha from 95 to 75
 employees[3].marks[2] = 75; 
 console.log(employees);
+
 
 
 
